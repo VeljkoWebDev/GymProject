@@ -1,0 +1,238 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Anton', sans-serif;
+}
+
+header {
+     background-image: url('../img/firstbg.png');
+     background-size: cover;
+     padding-top: 50px;
+     padding-bottom: 150px;
+     color: #fff;
+}
+
+header .logo {
+     display: flex;
+     text-decoration: none;
+}
+
+header .logo img{
+     width: 3%;
+}
+
+header .logo p{
+     font-size: 25px;
+     margin-top: 20px;
+     margin-left: 5px;
+     color: #fff;
+     font-weight: bold;
+}
+
+header h1 {
+     text-align: center;
+     padding-top: 75px;
+     padding-bottom: 50px;
+}
+
+body header h1 span {
+     font-size: 150px;
+     font-style: italic;
+     opacity: 0;
+     transition: all 0.5s ease;
+}
+
+header h1 span:nth-child(9){
+     color:#F9EF23
+}
+header h1 span:nth-child(10){
+     color:#F9EF23
+}
+header h1 span:nth-child(11){
+     color:#F9EF23
+}
+header h1 span:nth-child(12){
+     color:#F9EF23
+}
+
+header .btnhead {
+     margin: auto;
+     text-align: center;
+}
+
+header .btnhead a {
+     margin: auto;
+     text-align: center;
+     text-decoration: none;
+     color: #000;
+     padding: 10px 40px;
+     background: #F9EF23;
+     border: 1px solid #F9EF23;
+     transition: all 0.3s ease;
+     font-size: 20px;
+}
+
+header .btnhead a:hover, main .about a:hover {
+     color: #F9EF23;
+     background: transparent;
+}
+
+main {
+     background-color: #141414;
+}
+
+h2 {
+     color: #F9EF23;
+     font-size: 70px;
+     font-style: italic;
+}
+
+
+.fadeMove {
+     opacity: 1 !important;
+     transform: translateX(0);
+     transform: translateY(0);
+}
+
+main .about {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     color: #fff;
+}
+
+main .about p {
+     font-size: 24px;
+     margin-top: 40px;
+     margin-bottom: 80px;
+}
+
+main .about a {
+     font-size: 24px;
+     text-decoration: underline;
+     color: #fff;
+     transition: all 0.3 ease;
+}
+
+main .about .pic {
+     position: relative;
+     overflow: hidden;
+}
+
+main .about .pic div {
+     position: absolute;
+     width: 45%;
+     height: 90%;
+}
+
+main .about .pic .picone {
+     left: 0;
+     top: -10%;
+     background-image: url(../img/about1.jpg);
+     background-position: 20%;
+     background-size: cover;
+     transform: translateX(40px);
+     transition: all 5s ease;
+     opacity: 0;
+}
+
+main .about .pic .pictwo {
+     right: 0;
+     bottom: -10%;
+     background-image: url(../img/about2.jpg);
+     background-position: 40%;
+     background-size: cover;
+     transform: translateX(40px);
+     transition: all 5s ease;
+     opacity: 0;
+}
+
+main .about .animated {
+     opacity: 1 !important;
+     transform: translateX(0) !important;
+     transform: translateY(0) !important;
+}
+
+main .offer {
+     text-align: center;
+     color: #fff;
+     padding: 50px 0;
+}
+
+main .offer .mar {
+     margin: 160px 0;
+}
+
+main .offer a {
+     text-decoration: none;
+     color: #fff;
+     padding: 40% 20%;
+     font-size: 30px;
+     background-size: cover;
+     background-position: 80%;
+}
+
+.fispic {
+     background-image: url('../img/offer1.png');
+}
+
+.secpic {
+     background-image: url('../img/offer2.png');
+}
+
+.thrpic {
+     background-image: url('../img/offer3.png');
+}
+
+main .banda {
+     padding: 50px 0;
+}
+
+main .banda h2 {
+     text-align: center;
+}
+
+main .banda .item {
+     opacity: 0;
+     transform: translateY(40px);
+     transition: all 5s ease;
+}
+
+main .banda .item .img{
+     width: 100%;
+     height: 250px;
+     background-size: cover;
+     background-position: 0 -60px;
+}
+
+main .banda .item .one {
+     background-image: url('../img/first.jpg');
+}
+main .banda .item .two {
+     background-image: url('../img/sec.jpg');
+     background-position: 0;
+}
+main .banda .item .three {
+     background-image: url('../img/thr.jpg');
+}
+
+main .banda .item .quo {
+     background-color: #F9EF23;
+     padding: 25px;
+}
+
+main .banda .item .quo p:nth-child(2) {
+     font-style: italic;
+}
+
+main .banda .animated {
+     opacity: 1 !important;
+     transform: translateX(0) !important;
+     transform: translateY(0) !important;
+}
+
+footer {
+     background-image: url('../img/bg2.png');
+     padding-top: 150px;
+     padding-bottom: 150px;
+}
